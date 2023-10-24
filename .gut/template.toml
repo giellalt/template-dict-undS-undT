@@ -8,7 +8,7 @@
 # - ignored: never used in merging, only when populating new repos
 
 name = "Dictionary Template"
-patterns = ["__UNDS__", "__UNDS2C__", "__UNDEFINED_SOURCE__", "__UNDT__", "__UNDT2C__", "__UNDEFINED_TARGET__", "__LICENSE__"]
+patterns = ["__UND_SRC__", "__UND2C_SRC__", "__UNDEFINED_SOURCE__", "__UND_TRG__", "__UND2C_TRG__", "__UNDEFINED_TARGET__", "__LICENSE__"]
 rev_id = 1
 required = [".gitignore"]
 
