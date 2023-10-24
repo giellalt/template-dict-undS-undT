@@ -1,0 +1,18 @@
+# This template merge config file lists:
+#
+# - name: name of template stuff
+# - patterns: strings to do text substitution on
+# - rev_id: a sequential revision id of the template repo (manually maintained for now)
+# - required: a full list of all files always merged
+# - optional: a full list of all files merged when the --optional flag is used with `gut template`
+# - ignored: never used in merging, only when populating new repos
+
+name = "Dictionary Template"
+patterns = ["__UNDS__", "__UNDS2C__", "__UNDEFINED_SOURCE__", "__UNDT__", "__UNDT2C__", "__UNDEFINED_TARGET__", "__LICENSE__"]
+rev_id = 1
+required = [".gitignore"]
+
+optional = ["README.md"]
+
+ignored  = ["LICENSE",
+            ".gut/delta.toml"]
