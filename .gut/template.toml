@@ -9,7 +9,7 @@
 
 name = "Dictionary Template"
 patterns = ["__UND_SRC__", "__UND2C_SRC__", "__UNDEFINED_SOURCE__", "__UND_TRG__", "__UND2C_TRG__", "__UNDEFINED_TARGET__", "__LICENSE__"]
-rev_id = 1
+rev_id = 2
 required = [".gitignore",
             "docs/_config.yml",
             "docs/_includes/toc.html",
