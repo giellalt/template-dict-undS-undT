@@ -9,7 +9,7 @@
 
 name = "Dictionary Template"
 patterns = ["__UND_SRC__", "__UND2C_SRC__", "__UNDEFINED_SOURCE__", "__UND_TRG__", "__UND2C_TRG__", "__UNDEFINED_TARGET__", "__LICENSE__"]
-rev_id = 3
+rev_id = 4
 required = [".gitignore",
             ".github/workflows/docsygen.yml",
             "docs/_config.yml",
