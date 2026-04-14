@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-      - docsgen-upgrade
 
 permissions:
   pages: write
